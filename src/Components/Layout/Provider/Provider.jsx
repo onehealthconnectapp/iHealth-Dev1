@@ -96,14 +96,14 @@ const Provider = ({ selected, setSelected }) => {
         {/* ))} */}
         <div className="search-donate">
           <div className="search-container">
-            <button className="search-btn">
+            <button onClick={()=>{document.querySelector('#UnderConst-wrapper').style.display = "flex"}} className="search-btn">
               {" "}
               Search{" "}
               <SearchOutlinedIcon sx={{ fontSize: 12, marginLeft: 0.7 }} />{" "}
             </button>
           </div>
           <div className="frame-donate">
-            <Link to="/donate" className="donate-now">
+            <Link onClick={()=>{document.querySelector('#UnderConst-wrapper').style.display = "flex"}} className="donate-now">
               Donate Now
             </Link>
           </div>
