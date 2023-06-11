@@ -1,0 +1,26 @@
+.side-bar {
+  position: absolute;
+}
+.Home li,
+.Services li,
+.About-us li,
+.Research li {
+  padding: 4px 10px;
+  text-decoration: none !important;
+}
+.Home li:hover,
+.Services li:hover,
+.About-us li:hover,
+.Research li:hover {
+  background-color: #07235b;
+  color: #ffffff;
+  text-decoration: none !important;
+  text-decoration: none;
+  padding: 10px;
+}
+
+@media (width >890px) {
+  .side-bar {
+    display: none;
+  }
+}
