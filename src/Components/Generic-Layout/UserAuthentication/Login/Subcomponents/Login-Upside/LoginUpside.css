@@ -1,0 +1,8 @@
+/* Set Css rules for first part of Login pop-up section`s top content continer*/
+#Login-Upside
+{
+    display: flex;
+    flex-direction: column;
+}
+
+

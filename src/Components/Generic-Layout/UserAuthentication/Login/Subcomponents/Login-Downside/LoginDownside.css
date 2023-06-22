@@ -1,0 +1,30 @@
+
+#Login-downside
+{
+    background-color: #07235B;
+    width: 140%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+#Login-downside > img
+{
+    border-radius: 14px;
+    border: 1px solid #FFF;
+    background: #0386D0;
+    padding: 8px 7px;
+}
+
+#Login-downside > p
+{
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 110%;
+}
