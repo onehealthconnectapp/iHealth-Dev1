@@ -9,6 +9,19 @@
     place-items: center;
     justify-content: center;
     gap: 5px;
+    position: relative;
+}
+#Login-downside::before
+{
+    content: '';
+    position: absolute;
+    top: -173px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    clip-path: circle(154% at 50% -163%);
+    
+
 }
 
 
@@ -18,6 +31,7 @@
     border: 1px solid #FFF;
     background: #0386D0;
     padding: 8px 7px;
+    transform: translateY(28px);
 }
 
 #Login-downside > p
@@ -27,4 +41,5 @@
     font-family: Roboto;
     font-weight: 700;
     line-height: 110%;
+    transform: translateY(28px);
 }

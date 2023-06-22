@@ -88,7 +88,7 @@ const Navbar = () =>
             </ul>
             <ul className="nav-links-list">
               <li className="nav-links-listitem">
-                <NavLink onClick={()=> console.log('login clicked')} className="nav-links nav-signin">
+                <NavLink onClick={() => {document.querySelector("#Login-Main-Container").style.display = "flex";}} className="nav-links nav-signin">
                   <AccountCircleIcon className="circle-icon" sx={{ fontSize: 32, marginLeft: 0.5 }} sm={{ fontSize: 48 }} />
                   <span className="nav-signin-span">Sign up or Log In</span>
                 </NavLink>

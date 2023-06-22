@@ -18,6 +18,7 @@ function Login()
         <section id='Login-Main-Container'>
 
             <div id='Login-Main-wrapper'>
+                <button id='Login-Main-Container-close-button' onClick={() => {document.querySelector("#Login-Main-Container").style.display = "None";}}>X</button>
                 <LoginUpside />
                 <LoginDownside />
             </div>

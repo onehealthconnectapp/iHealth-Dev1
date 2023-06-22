@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    transform: translateY(28px);
 }
 
 #Login-Upside-Top > img
