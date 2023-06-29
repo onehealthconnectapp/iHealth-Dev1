@@ -37,7 +37,7 @@ function LoginUpsideLoginForm()
       //if (data.status === false) {}
       //if (data.status === true) {navigate("/");}
 
-      console.log(event)
+      console.log(event) //will be deleted
     }
   };
   /* -------------------------------- These functions will be updated in the future regarding the user authentication logic -------------------------------- */

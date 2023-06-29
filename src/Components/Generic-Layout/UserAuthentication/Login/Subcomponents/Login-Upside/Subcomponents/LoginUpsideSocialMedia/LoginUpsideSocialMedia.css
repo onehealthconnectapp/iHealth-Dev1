@@ -1,3 +1,4 @@
+/* Set Css rules for Login popup screen Upside part Social Media main div */
 #Login-Upside-login-social-media
 {
     flex-direction: column;
@@ -6,6 +7,8 @@
     padding: 12px 0;
 }
 
+
+/* Set Css rules for Login popup screen Upside part Social Media main div`s all paragraph html elements */
 #Login-Upside-login-social-media > p
 {
     color: #747070;
@@ -17,6 +20,7 @@
 }
 
 
+/* Set Css rules for Login popup screen Upside part Social Media main div`s paragraph of starting with 'By signing in you are agreeing our TERMS..' */
 #Login-Upside-login-social-media > p:nth-child(3)
 {
     padding: 0 4rem;
@@ -34,4 +38,17 @@
 #Login-Upside-login-social-media > p > a    
 {
     text-decoration: none;
+}
+
+
+
+
+/* -------------------- Responsive Css Rules -------------------- */
+
+@media only screen and (max-width: 515px) 
+{
+    #Login-Upside-login-social-media > p
+    {
+        font-size: 14px;
+    }
 }

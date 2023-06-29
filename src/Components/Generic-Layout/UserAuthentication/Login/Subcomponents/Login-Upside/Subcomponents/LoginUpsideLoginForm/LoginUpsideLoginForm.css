@@ -89,6 +89,7 @@
     gap: 3.3rem;
 }
 
+/* for Logintop part form`s Password input elements` remember/forget`s  wrapper div for password options/link */
 #Login-Upside-login-form-rmpswrd-forget > div
 {
     display: flex;
@@ -140,4 +141,36 @@
     font-family: Roboto;
     font-weight: 700;
     line-height: 110%;
+}
+
+
+
+/* -------------------- Responsive Css Rules -------------------- */
+
+@media only screen and (max-width: 515px) 
+{
+    #Login-Upside-login-form-rmpswrd-forget 
+    {
+        gap: 2.3rem;
+    }
+
+    #Login-Upside-login-form-rmpswrd-forget > div 
+    {
+        gap: 0px;
+    }
+
+    #Login-Upside-login-form-rmpswrd-forget > div > input 
+    {
+        gap: 0.4em;
+    }
+
+    #Login-Upside-login-form-rmpswrd-forget > div > label 
+    {
+        font-size: 13px;
+    }
+
+    #Login-Upside-login-form-rmpswrd-forget > a 
+    {
+        font-size: 13px;
+    }
 }

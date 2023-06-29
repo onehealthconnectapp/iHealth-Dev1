@@ -1,7 +1,7 @@
 //Import Libraries/Packages
 import React from 'react'
 
-//Import Styles
+//Import Stylesn
 import "./Login.css"
 
 //Import local components

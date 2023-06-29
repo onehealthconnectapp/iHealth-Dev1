@@ -43,3 +43,23 @@
     line-height: 110%;
     transform: translateY(28px);
 }
+
+
+
+
+
+
+/* -------------------- Responsive Css Rules -------------------- */
+
+@media only screen and (max-width: 515px) 
+{
+    #Login-downside 
+    {
+        width: 154%;
+    }
+
+    #Login-downside::before 
+    {    
+        top: -99px;
+    }
+}
