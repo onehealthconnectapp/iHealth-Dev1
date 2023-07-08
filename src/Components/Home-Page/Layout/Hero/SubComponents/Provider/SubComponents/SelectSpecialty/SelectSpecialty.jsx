@@ -18,7 +18,7 @@ function SelectSpecialty({specialityOptions})
 
         <div className='Select-Select-inputselect specialtySelect-select'>
           <select name="Diseases" className="Select-selectOptions">
-              <option value="none" selected disabled hidden>Select Specialty </option>
+              <option defaultValue='Select Specialty' >Select Specialty </option>
               {specialityOptions.map((arg,i)=>
               {
                 return(<option value={arg} key={i+arg}>{arg}</option>)
