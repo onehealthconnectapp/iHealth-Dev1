@@ -1,0 +1,83 @@
+/* Set Css rules for Main Wrapper for TermPolicyOnlyViewContent component */
+#TermPolicyOnlyViewContent-Wrapper
+{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.652);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    place-items: center;
+    z-index: 2;
+    overflow-y: scroll;
+}
+
+/* Set Css rules for Main Content Div for TermPolicyOnlyViewContent component */
+#TermPolicyOnlyViewContent-MainContent-container
+{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 3rem 0;
+    background: #ffff;
+    margin: 45px 6rem;
+}
+
+/* Set Css rules for Picture`s main div for TermPolicyOnlyViewContent component */
+#TermPolicyOnlyViewContent-Picture-Container
+{
+   
+}
+
+/* Set Css rules for Main Content Container */
+#TermPolicyOnlyViewContent-Content-Container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 7rem;
+}
+
+/* Set Css rules for H3 element as 'iHealth and Wellness Foundation, Inc.' */
+#TermsofService-main-iHealth-and-Wellness-Foundation
+{
+    
+}
+
+
+/* Set Css rules for H2 element as 'Terms of Service' */
+#TermsofService-main-Terms-of-Service
+{
+    
+}
+
+#TermsofService-main-paragraph
+{
+    
+}
+
+#TermPolicyOnlyViewContent-Content-Container > ul > li
+{
+    
+}
+
+
+
+
+
+
+#TermsofService-main-doublesided
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+
+
+
