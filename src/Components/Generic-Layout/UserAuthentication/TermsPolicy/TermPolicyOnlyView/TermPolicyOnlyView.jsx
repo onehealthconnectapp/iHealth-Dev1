@@ -17,7 +17,7 @@ function TermPolicyOnlyView()
   return (
     <>
             <a onClick={()=>{setShowTPP(true)}}>Term and privacy policy</a>
-            {ShowTPP && createPortal(<TermPolicyOnlyViewContent />,document.body)}
+            {ShowTPP && createPortal(<TermPolicyOnlyViewContent setShowTPP={setShowTPP} />,document.body)}
     </>
   )
 }
